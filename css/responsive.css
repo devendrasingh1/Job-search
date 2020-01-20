@@ -1,0 +1,33 @@
+
+@media(max-width: 991px){
+	.left_login {
+	    width: 100%;
+	    display: inline-block;
+	}
+	.login_img_part {
+	    text-align: center;
+	}
+	.right_login{
+		width: 100%;
+	    display: inline-block;
+	}
+}
+@media(max-width: 767px){
+	.form_inline .form_group .input_lable {
+	    width: 100%;
+	    display: inline-block;
+	    float: none;
+	}
+	.form_inline .form_group .input_group {
+	    padding-left: 0;
+	}
+	.candidate_details_box .r_thumb_wrap {
+	    width: 100%;
+	}
+	.candidate_table_content {
+	    padding-left: 0;
+	    float: left;
+	    width: 100%;
+	    padding-top: 25px;
+	}
+}
