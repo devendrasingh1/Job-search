@@ -55,7 +55,7 @@
 	}
 	.filter_forms .filter_row {
 	    float: left;
-	    width: 25%;
+	    width: 50%;
 	    padding: 0 4px;
 	}
 	/*== sidebar css ==*/
@@ -80,9 +80,6 @@
 	}
 	.form_center {
 	    padding: 0 10px;
-	}
-	.filter_forms .filter_row {
-	    width: 50%;
 	}
 }
 @media(max-width: 540px){
