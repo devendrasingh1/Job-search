@@ -95,6 +95,18 @@
 	.form_center {
 	    padding: 0 10px;
 	}
+	.page_banner_text{
+		text-align: center;
+	}
+	.page_banner_text .banner_heading {
+	    display: inline-block;
+	    width: 100%;
+	}
+	.page_banner_text .breadcrumbs {
+	    float: left;
+	    margin-top: 9px;
+	    width: 100%;
+	}
 }
 @media(max-width: 540px){
 	.filter_forms .filter_row {
