@@ -529,10 +529,10 @@ input:focus, select:focus, a:focus, button:focus, textarea:focus{
 /*======= Header css End ========*/
 /*======= page banner css start ========*/
 .page_banner_section {
-    background: url(../images/bg/page_banner.jpg) no-repeat;
+    background: #6581e5;
     background-size: cover;
     background-position: center;
-    padding: 80px 0;
+    padding: 18px 0;
     background-attachment: fixed;
     position: relative;
 }
@@ -546,12 +546,21 @@ input:focus, select:focus, a:focus, button:focus, textarea:focus{
     opacity: 0.70;
 }
 .page_banner_text {
-    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+.page_banner_text .banner_heading {
+    display: inline-block;
 }
 .page_banner_text h1 {
-    font-size: 40px;
-    margin-bottom: 15px;
+    font-size: 25px;
+    margin-bottom: 0;
     color: #fff;
+    font-weight: 400;
+}
+.page_banner_text .breadcrumbs {
+    float: right;
+    margin-top: 5px;
 }
 .breadcrumbs ul {
     padding: 0;
@@ -812,7 +821,7 @@ input:focus, select:focus, a:focus, button:focus, textarea:focus{
     display: inline-block;
     width: 100%;
     text-transform: capitalize;
-    margin-bottom: 9px;
+    margin-bottom: 14px;
 }
 .location_ctc .location {
     color: #6581e5;

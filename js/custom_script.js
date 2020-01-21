@@ -102,9 +102,12 @@
 	$( "#amount" ).val( "" + $( ".ctc_range" ).slider( "values", 0 ) +
 	" -" + $( ".ctc_range" ).slider( "values", 1 ) );
 	//sidebar open
-	$(".filter_toggle").on('click',function(){
-		$(".filter_forms").slideToggle(300);
-	});
+	if ($(window).width () <= 991){
+		$(".filter_toggle.filter_m").on('click',function(){
+			$(".filter_forms").slideToggle(300);
+		});
+	}
+	
 })(jQuery);
 //copy to clip board on click
 function copybutton() {

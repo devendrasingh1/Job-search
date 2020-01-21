@@ -7,6 +7,14 @@
 		padding: 0 7px;
 	}
 }
+@media(min-width: 992px){
+	.filter_d{
+		display: inline-block;
+	}
+	.filter_m{
+		display: none;
+	}
+}
 @media(max-width: 991px){
 	.left_login {
 	    width: 100%;
@@ -20,6 +28,12 @@
 	    display: inline-block;
 	}
 	/*== sidebar css ==*/
+	.filter_m{
+		display: inline-block;
+	}
+	.filter_d{
+		display: none;
+	}
 	.search_content_area{
 		padding-left: 0px; 
 	}
