@@ -24,10 +24,10 @@
 	    var menu = $(this).next(".dropdown_navs");
 	    var menupos = $(menu).offset();
 	    if (menupos.left + menu.width() > $(window).width()) {
-	        $(".dropdown_navs").addClass("offset_menu");
+	        $(".dropdown_navs").css({'left':'auto', 'right':'0'});
 	    }
 	    else{
-	    	$(".dropdown_navs").removeClass("offset_menu");
+	    	//$(".dropdown_navs").css({'left':'0', 'right':'auto'});
 	    }
 	});
 	//Responsive Mobile Menu
